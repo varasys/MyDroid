@@ -1,5 +1,5 @@
 # MyDroid
-Free and Open Source Software (FOSS) Android fork with proper permission model, native backup support and MyCloud integration
+Free and Open Source Software (FOSS) Android fork with proper permission model, native backup support and [MyCloud](https://github.com/varasys/MyCloud) integration using secure [ITPS](https://github.com/varasys/ITPS) networking protocol.
 
 MyDroid is a fork of Android intended to correct the following deficiencies:
 1. Root access by default (with sudo protection)
@@ -14,6 +14,4 @@ MyDroid is a fork of Android intended to correct the following deficiencies:
 6. Integration with MyCloud (FOSS personal cloud intended to be installed on the user's VPS)
 7. Simplified architecture (focused on benefiting the end users and not app developers or any single corporate entity)
 
-MyDroid is meant to run apps developed for Android, but will be focused on drawing attention and promoting the F-Droid FOSS app repository.
-
-
+MyDroid is meant to run apps developed for Android, but will be focused on drawing attention and promoting the [F-Droid](https://f-droid.org/) FOSS app repository.
