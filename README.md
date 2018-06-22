@@ -4,17 +4,18 @@ Free and Open Source Software ([FOSS](https://en.wikipedia.org/wiki/Free_and_ope
 MyDroid is meant to bring the mobile experience back closer to the desktop experience by providing a mobile OS that will work for most people out of the box, but also allows the same flexability as Linux on a desktop for people who want that.
 
 MyDroid is a fork of Android intended to correct the following deficiencies:
-1. Root access by default (with sudo protection)
-2. Identity based external interactions
-3. Proper permissions model:
+1. No artificial contraints added for commercial reasons or by carriers
+2. Root access by default (with sudo protection)
+3. Identity based external interactions
+4. Proper permissions model:
     * Not only "set and forget"
     * Instance based permission approvals with option for "set and forget" (so if an app needs location services it will ask each time, and then be locked out again after the app is closed)
-4. Clear seperation between the following to facilitate better disaster recovery and transfer between devices:
+5. Clear seperation between the following to facilitate better disaster recovery and transfer between devices:
     * Application Manifests (to facilitate clean re-installation of software)
     * Application Data (to facilitate data backups)
-5. Ephemeral items (including the OS itself) stored on device memory - and ALL data stored on external SD card (so SD card is mandatory! - but this also allows for a form of identity switching by switching SD cards (or partitions on the same SD card))
-6. Integration with [MyCloud](https://github.com/varasys/MyCloud) (FOSS personal cloud intended to be installed on the user's VPS)
-7. Simplified architecture (focused on benefiting the end users and not app developers or any single corporate entity)
+6. Ephemeral items (including the OS itself) stored on device memory - and ALL data stored on external SD card (so SD card is mandatory! - but this also allows for a form of identity switching by switching SD cards (or partitions on the same SD card))
+7. Integration with [MyCloud](https://github.com/varasys/MyCloud) (FOSS personal cloud intended to be installed on the user's VPS)
+8. Simplified architecture (focused on benefiting the end users and not app developers or any single corporate entity)
 
 MyDroid is meant to run apps developed for Android, but will be focused on drawing attention and promoting the [F-Droid](https://f-droid.org/) FOSS app repository.
 
