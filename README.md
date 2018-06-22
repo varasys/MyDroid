@@ -1,6 +1,8 @@
 # MyDroid
 Free and Open Source Software ([FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software)) Android fork with proper permission model, native backup support and [MyCloud](https://github.com/varasys/MyCloud) integration using secure [ITPS](https://github.com/varasys/ITPS) networking protocol.
 
+MyDroid is meant to bring the mobile experience back closer to the desktop experience by providing a mobile OS that will work for most people out of the box, but also allows the same flexability as Linux on a desktop for people who want that.
+
 MyDroid is a fork of Android intended to correct the following deficiencies:
 1. Root access by default (with sudo protection)
 2. Identity based external interactions
