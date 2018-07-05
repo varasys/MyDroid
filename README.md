@@ -23,3 +23,5 @@ Additional features:
 1. Complete and total process isolation with sandboxed data storage (you can try something and then be assured of being able to completely wipe it and ALL traces, including data)
 2. Interface between apps uses a more secure model (for instance, instead of allowing access to the contact list, a program will use an API to launch the contacts app and then accept whatever is returned - therefore the program will not actually have any access to the contact list, just the contact(s) the user selected)
 
+## Team Skills Needed
+1. Android Developers
